@@ -1,0 +1,145 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80%;
+}
+
+
+.signin-box {
+    border: 2px solid lightgrey;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%; /* Ensures the input-group takes up the full width */
+}
+#createButton{
+    padding: 10px;
+    background-color: white;
+    color: lightgrey;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#button1 {
+    padding: 10px;
+    background-color: goldenrod;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.password-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Ensures the span takes up the full width, creating space between the label and the link */
+}
+
+#password-label , #email-label{
+    white-space: nowrap;
+    width: 100%  /* Makes the input field take up the full width */
+}
+
+#password-link {
+    text-align: left;
+    font-size: large;
+    color: solid blue;
+    white-space: nowrap; /* Prevents the text inside the link from wrapping */
+}
+
+#password, #email {
+    width: 100%; /* Makes the input field take up the full width */
+    }
+
+#needhelp-link{
+    color: solid blue;
+
+}    
+
+.line-text-line-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center; /* added to center the items horizontally */
+    text-align: center;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px; 
+    background-color: #000; 
+    margin: 0 10px; 
+}
+
+.text {
+    white-space: nowrap;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 10px 0;
+}
+
+.links-container {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    white-space: nowrap;
+    
+}
+
+.hyperlink {
+    margin: 0 10px; /* Adds some space between the links */
+    white-space: nowrap; /* Prevents the links from wrapping to a new line */
+    font-size: 8px;
+}
